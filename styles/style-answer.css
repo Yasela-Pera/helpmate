@@ -1,0 +1,206 @@
+*{
+  font-family: "Nunito", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.que-text {
+  font-size: 18px;
+  padding: 15px;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: aliceblue;
+}
+.fs-12 {
+  font-size: 12px;
+}
+.shadow-none {
+  box-shadow: none;
+}
+.name {
+  color: darkslategray;
+}
+.cursor:hover {
+  color: #262c5e;
+}
+.cursor {
+  cursor: pointer;
+}
+.textarea {
+  resize: none;
+}
+
+.user-info {
+  align-items: center;
+  padding-left: 15px;
+}
+
+.col-md-8 {
+  max-width: none;
+  flex: none;
+}
+
+.log {
+  color: #16213e;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* .my-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: #f2f2f2;
+    text-align: center;
+    line-height: 50px;
+  } */
+
+.main-blur {
+  width: 70%;
+  align-content: center;
+  margin: auto;
+  /* background: rgb(255, 255, 255, 0.4); */
+  background: rgb(22, 33, 62, 0.2);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding: 3.5rem;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #262c5e;
+}
+
+.response-blur {
+  width: 90%;
+  align-content: center;
+  margin: auto;
+  background: rgb(22, 33, 62, 0.2);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 1.5rem;
+}
+
+.q-area {
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border-width: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* adds a shadow with a slight blur */
+  transition: transform 0.3s ease-out;
+}
+
+.q-area:hover {
+  transform: scale(1.03); /* scales up the div by 10% */
+}
+
+.profile {
+  font-size: 2.5rem;
+}
+
+.answer {
+  color: grey;
+  padding-left: 15px;
+}
+
+.ans {
+  padding-left: 20px;
+}
+
+.err {
+  color: red;
+  display: none;
+  padding-left: 15px;
+}
+
+#q-post {
+  display: none;
+}
+
+.head-text {
+  text-align: center;
+  color: white;
+}
+
+.my-btn {
+  background: #262c5e;
+  border-style: solid;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 5px 30px 5px 30px;
+  text-decoration: none;
+}
+
+.my-btn:active {
+  scale: 0.95;
+}
+
+.my-btn:hover {
+  background: #ffffff;
+  color: #262c5e;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #262c5e;
+}
+
+@media (max-width: 992px) {
+  .log{
+    color: white;
+  }
+}
+
+@media (max-width: 768px) {
+  .log{
+    color: white;
+  }
+
+  .main-blur{
+    padding: 0.8rem;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* .my-btn{
+    padding: 2px 15px 2px 15px;
+  } */
+
+  .q-area{
+    padding: 5px;
+  }
+
+  .date{
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  .log{
+    color: white;
+  }
+
+  .main-blur{
+    padding: 0.8rem;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .q-area{
+    padding: 5px;
+  }
+
+  .date{
+    display: none;
+  }
+}

@@ -1,0 +1,279 @@
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(
+    to right,
+    #16213e 0%,
+    #16213e 50%,
+    white 50%,
+    white 150%
+  );
+  justify-content: center;
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+}
+
+.main-box{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.center-main {
+  width: 50%;
+  align-content: center;
+  margin: auto;
+  background: rgb(255, 255, 255, 0.4);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  margin-top: 100px;
+  border-style: solid;
+  border-color: #262c5e;
+
+  flex: 1;
+  margin-bottom: 50px;
+}
+
+/* nav */
+
+.burger-brand {
+  margin: auto;
+  align-items: center;
+  /* display: none; */
+}
+
+.burger-brand a {
+  font-size: 15px;
+  color: #f2f2f2;
+}
+
+/* content */
+
+.left-header {
+  text-align: center;
+  color: #fff;
+}
+
+.right-header {
+  text-align: center;
+  color: black;
+  padding-top: 50px;
+}
+
+.right-header h1{
+  color: #16213e;
+}
+
+.r-img {
+  height: 70vh;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+
+.my-select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.contact a {
+  margin-left: 10px;
+  color: black;
+  text-decoration: none;
+  padding-right: 30px;
+}
+
+.contact a:hover {
+  text-decoration: none;
+
+}
+
+.container-fluid {
+  padding: 20px;
+}
+
+
+a:hover{
+  color: white;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-column {
+  padding: 20px;
+}
+
+.right-column {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-column img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* .my-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background: #f2f2f2;
+  text-align: center;
+  line-height: 50px;
+} */
+
+#reg_no-div {
+  display: block;
+}
+
+#reg_no_div.hidden {
+  display: none;
+}
+
+.form {
+  padding: 30px 60px;
+}
+
+.form-control {
+  margin-bottom: 20px;
+  padding: 10px 10px 20px 10px;
+  position: relative;
+}
+
+.form-control input {
+  border: 2px solid whitesmoke;
+  border-radius: 4px;
+  display: block;
+  font-family: inherit;
+  font-size: 14px;
+  padding: 10px;
+  width: 100%;
+  outline: none;
+}
+
+.form-control.success input {
+  border-color: #2ecc71;
+}
+
+.form-control.error input {
+  border-color: #e74c3c;
+}
+
+.form-control i {
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  visibility: hidden;
+}
+
+.form-control.success i.fa-check-circle {
+  color: #2ecc71;
+  visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.form-control small {
+  visibility: hidden;
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+}
+
+.form-control.error small {
+  color: #e74c3c;
+  visibility: visible;
+}
+
+.form p {
+  padding-top: 10px;
+  text-decoration: underline;
+}
+
+.my-btn {
+  background: #262c5e;
+  border-style: solid;
+  border-radius: 28px;
+  font-family: "Nunito", sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 5px 30px 5px 30px;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.my-btn:active {
+  scale: 0.95;
+}
+
+.my-btn-form:active {
+  scale: 0.95;
+}
+
+.my-btn-form {
+  background: #ffffff;
+  border-style: solid;
+  border-color: #262c5e;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #262c5e;
+  font-size: 16px;
+  padding: 5px 30px 5px 30px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.my-btn:hover {
+  background: #ffffff;
+  color: #262c5e;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #262c5e;
+}
+
+.my-btn-form:hover {
+  background: #262c5e;
+  color: #ffffff;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ffffff;
+}
+
+
+@media (max-width: 992px) {
+  .center-main {
+    width: 70%;
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .center-main {
+    width: 90%;
+    margin-top: 30px;
+  }
+}
